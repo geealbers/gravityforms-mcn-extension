@@ -3,6 +3,14 @@
   color: #ed1c7b;
 }
 
+.gform_confirmation_wrapper.mcn-extension {
+  font-size: 2em;
+  line-height: 1.5em;
+  margin: 40px 40px 80px;
+}
+
+.gform_confirmation_wrapper.mcn-extension
+.gform_button,
 .gform_wrapper.mcn-extension_wrapper
 .gform_button {
   appearance: none;
@@ -15,6 +23,16 @@
   margin-right: 20px !important;
 }
 
+.gform_confirmation_wrapper.mcn-extension
+a.gform_button {
+  font-size: 1.5rem;
+  float: none;
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.gform_confirmation_wrapper.mcn-extension
+a.gform_button:hover,
 .gform_wrapper.mcn-extension_wrapper
 .gform_button:hover {
   background-color: #d24520;
