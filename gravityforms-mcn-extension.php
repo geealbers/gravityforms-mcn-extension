@@ -19,6 +19,7 @@ function register_plugin_styles() {
 
  add_filter( 'gform_field_choice_markup_pre_render_1', function ( $choice_markup, $choice, $field, $value ) {
     if ( $field->get_input_type() == 'radio' ) {
+			  $search_criteria['status'] = 'active';
         $search_criteria['field_filters'][] = array( 'key' => '1', 'value' => $choice['text'] );
         $entry_counts = GFAPI::count_entries( 1, $search_criteria );
         $tally = str_repeat(" &#9733;",$entry_counts);
