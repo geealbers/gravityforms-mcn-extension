@@ -1,4 +1,9 @@
 .gform_wrapper.mcn-extension_wrapper
+.tally {
+  color: #ed1c7b;
+}
+
+.gform_wrapper.mcn-extension_wrapper
 .gform_button {
   appearance: none;
   background-color: #f04e23;
@@ -8,6 +13,11 @@
   padding: .75em 1.5em;
   float: right;
   margin-right: 20px !important;
+}
+
+.gform_wrapper.mcn-extension_wrapper
+.gform_button:hover {
+  background-color: #d24520;
 }
 
 .gform_wrapper.mcn-extension_wrapper
