@@ -1,0 +1,61 @@
+.gform_wrapper.mcn-extension_wrapper
+.gform_button {
+  appearance: none;
+  background-color: #f04e23;
+  border: 0;
+  border-radius: 10px;
+  color: #fff;
+  padding: .75em 1.5em;
+  float: right;
+  margin-right: 20px !important;
+}
+
+.gform_wrapper.mcn-extension_wrapper
+.gfield_checkbox br {
+  display: none;
+}
+
+.gform_wrapper.mcn-extension_wrapper
+.gfield_description {
+  font-size: 90%;
+  line-height: 1.6em;
+}
+
+.gform_wrapper.mcn-extension_wrapper
+.permissions-acknowledgment
+.gfield_label {
+  width: 20px;
+  float: left;
+}
+
+.gform_wrapper.mcn-extension_wrapper
+.permissions-acknowledgment
+.gfield_checkbox li input[type=checkbox] {
+  vertical-align: top;
+}
+
+.gform_wrapper.mcn-extension_wrapper
+input[type=text] {
+  appearance: none;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  height: 2.5em;
+  padding-left: 1em !important;
+}
+
+.gform_wrapper.mcn-extension_wrapper
+.gfield_description {
+  width: 49.5%;
+}
+
+@media only screen and (max-width: 641px) {
+  .gform_wrapper.mcn-extension_wrapper
+  .gform_button {
+    margin-right: 0px !important;
+    text-align: center;
+  }
+  .gform_wrapper.mcn-extension_wrapper
+  .gfield_description {
+    width: 100%;
+  }
+}
